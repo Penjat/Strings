@@ -13,6 +13,11 @@ int main(int argc, const char * argv[]) {
         NSString * name = @"Spencer";
         
         NSLog(@"%@", name);
+        
+        NSString * nameUpperCase = [name uppercaseString];
+        
+        NSLog(@"%@", nameUpperCase);
+        
     }
     return 0;
 }
